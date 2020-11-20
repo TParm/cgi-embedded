@@ -1,0 +1,8 @@
+CGITARGET=/usr/local/www/data/b/cgi/env.cgi
+CFILE=env-cgi.c
+
+$(CGITARGET): $(CFILE)
+        cc -Wall -o $(CGITARGET) $(CFILE)
+
+clean:
+        -rm -f $(CGITARGET)
