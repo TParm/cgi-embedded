@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
     <title>CGI embedded</title>
 
 </head>
+
 <body>
     <div class="jumbotron jumbotron-fluid bg-info text-white">
         <div class="container">
@@ -17,12 +19,12 @@
         <div class="row mt-5 justify-content-center">
             <div class="col-8 text-center">
                 <h4>DATATABLE</h4>
-                <table class="mt-3 table">
+                <table class="mt-3 table table-bordered table-striped">
                     <thead>
                         <tr>
-                            <th>#</th>
-                            <th>Data<th>
-                            <th>Time</th>
+                            <th>name</th>
+                            <th>place</th>
+                            <th>datetime</th>
                         </tr>
                     </thead>
                     <tbody id="tbody-data"></tbody>
@@ -35,4 +37,5 @@
     <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="./scripts/script.js"></script>
 </body>
+
 </html>
