@@ -1,0 +1,3 @@
+/home/pi/trailer/school/embedded/projects/embedded-cgi/cgi-embedded/CGI/build/CMakeFiles/rebuild_cache.dir
+/home/pi/trailer/school/embedded/projects/embedded-cgi/cgi-embedded/CGI/build/CMakeFiles/ENV-CGI.dir
+/home/pi/trailer/school/embedded/projects/embedded-cgi/cgi-embedded/CGI/build/CMakeFiles/edit_cache.dir

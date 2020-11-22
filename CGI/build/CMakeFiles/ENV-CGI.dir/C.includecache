@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/pi/trailer/school/embedded/projects/embedded-cgi/cgi-embedded/CGI/source/main.c
+stdio.h
+-
+string.h
+-
+stdlib.h
+-
+
