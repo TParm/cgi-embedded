@@ -1,0 +1,1 @@
+/usr/bin/cc   -rdynamic CMakeFiles/emb-cgi.dir/main.c.o  -o emb-cgi 

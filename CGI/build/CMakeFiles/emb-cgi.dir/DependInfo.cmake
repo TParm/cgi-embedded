@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/pi/trailer/school/embedded/projects/embedded-cgi/cgi-embedded/CGI/source/main.c" "/home/pi/trailer/school/embedded/projects/embedded-cgi/cgi-embedded/CGI/build/CMakeFiles/ENV-CGI.dir/main.c.o"
+  "/var/www/html/cgi-embedded/CGI/source/main.c" "/var/www/html/cgi-embedded/CGI/build/CMakeFiles/emb-cgi.dir/main.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

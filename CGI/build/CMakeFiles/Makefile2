@@ -59,45 +59,45 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pi/trailer/school/embedded/projects/embedded-cgi/cgi-embedded/CGI/source
+CMAKE_SOURCE_DIR = /var/www/html/cgi-embedded/CGI/source
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pi/trailer/school/embedded/projects/embedded-cgi/cgi-embedded/CGI/build
+CMAKE_BINARY_DIR = /var/www/html/cgi-embedded/CGI/build
 
 #=============================================================================
-# Target rules for target CMakeFiles/ENV-CGI.dir
+# Target rules for target CMakeFiles/emb-cgi.dir
 
 # All Build rule for target.
-CMakeFiles/ENV-CGI.dir/all:
-	$(MAKE) -f CMakeFiles/ENV-CGI.dir/build.make CMakeFiles/ENV-CGI.dir/depend
-	$(MAKE) -f CMakeFiles/ENV-CGI.dir/build.make CMakeFiles/ENV-CGI.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/trailer/school/embedded/projects/embedded-cgi/cgi-embedded/CGI/build/CMakeFiles --progress-num=1,2 "Built target ENV-CGI"
-.PHONY : CMakeFiles/ENV-CGI.dir/all
+CMakeFiles/emb-cgi.dir/all:
+	$(MAKE) -f CMakeFiles/emb-cgi.dir/build.make CMakeFiles/emb-cgi.dir/depend
+	$(MAKE) -f CMakeFiles/emb-cgi.dir/build.make CMakeFiles/emb-cgi.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/var/www/html/cgi-embedded/CGI/build/CMakeFiles --progress-num=1,2 "Built target emb-cgi"
+.PHONY : CMakeFiles/emb-cgi.dir/all
 
 # Include target in all.
-all: CMakeFiles/ENV-CGI.dir/all
+all: CMakeFiles/emb-cgi.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/ENV-CGI.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/trailer/school/embedded/projects/embedded-cgi/cgi-embedded/CGI/build/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/ENV-CGI.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/trailer/school/embedded/projects/embedded-cgi/cgi-embedded/CGI/build/CMakeFiles 0
-.PHONY : CMakeFiles/ENV-CGI.dir/rule
+CMakeFiles/emb-cgi.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /var/www/html/cgi-embedded/CGI/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/emb-cgi.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /var/www/html/cgi-embedded/CGI/build/CMakeFiles 0
+.PHONY : CMakeFiles/emb-cgi.dir/rule
 
 # Convenience name for target.
-ENV-CGI: CMakeFiles/ENV-CGI.dir/rule
+emb-cgi: CMakeFiles/emb-cgi.dir/rule
 
-.PHONY : ENV-CGI
-
-# clean rule for target.
-CMakeFiles/ENV-CGI.dir/clean:
-	$(MAKE) -f CMakeFiles/ENV-CGI.dir/build.make CMakeFiles/ENV-CGI.dir/clean
-.PHONY : CMakeFiles/ENV-CGI.dir/clean
+.PHONY : emb-cgi
 
 # clean rule for target.
-clean: CMakeFiles/ENV-CGI.dir/clean
+CMakeFiles/emb-cgi.dir/clean:
+	$(MAKE) -f CMakeFiles/emb-cgi.dir/build.make CMakeFiles/emb-cgi.dir/clean
+.PHONY : CMakeFiles/emb-cgi.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/emb-cgi.dir/clean
 
 .PHONY : clean
 

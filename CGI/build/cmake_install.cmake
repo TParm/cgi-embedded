@@ -1,4 +1,4 @@
-# Install script for directory: /home/pi/trailer/school/embedded/projects/embedded-cgi/cgi-embedded/CGI/source
+# Install script for directory: /var/www/html/cgi-embedded/CGI/source
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/pi/trailer/school/embedded/projects/embedded-cgi/cgi-embedded/CGI/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/var/www/html/cgi-embedded/CGI/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

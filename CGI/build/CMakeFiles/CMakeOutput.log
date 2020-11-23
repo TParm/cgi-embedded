@@ -10,7 +10,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/home/pi/trailer/school/embedded/projects/embedded-cgi/cgi-embedded/CGI/build/CMakeFiles/3.13.4/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/var/www/html/cgi-embedded/CGI/build/CMakeFiles/3.13.4/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /usr/bin/c++ 
@@ -23,33 +23,33 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/home/pi/trailer/school/embedded/projects/embedded-cgi/cgi-embedded/CGI/build/CMakeFiles/3.13.4/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/var/www/html/cgi-embedded/CGI/build/CMakeFiles/3.13.4/CompilerIdCXX/a.out"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /home/pi/trailer/school/embedded/projects/embedded-cgi/cgi-embedded/CGI/build/CMakeFiles/CMakeTmp
+Change Dir: /var/www/html/cgi-embedded/CGI/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_84c57/fast"
-/usr/bin/make -f CMakeFiles/cmTC_84c57.dir/build.make CMakeFiles/cmTC_84c57.dir/build
-make[1]: Map '/home/pi/trailer/school/embedded/projects/embedded-cgi/cgi-embedded/CGI/build/CMakeFiles/CMakeTmp' wordt binnengegaan
-Building C object CMakeFiles/cmTC_84c57.dir/testCCompiler.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_84c57.dir/testCCompiler.c.o   -c /home/pi/trailer/school/embedded/projects/embedded-cgi/cgi-embedded/CGI/build/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_84c57
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_84c57.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_84c57.dir/testCCompiler.c.o  -o cmTC_84c57 
-make[1]: Map '/home/pi/trailer/school/embedded/projects/embedded-cgi/cgi-embedded/CGI/build/CMakeFiles/CMakeTmp' wordt verlaten
+Run Build Command:"/usr/bin/make" "cmTC_6024e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6024e.dir/build.make CMakeFiles/cmTC_6024e.dir/build
+make[1]: Map '/var/www/html/cgi-embedded/CGI/build/CMakeFiles/CMakeTmp' wordt binnengegaan
+Building C object CMakeFiles/cmTC_6024e.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_6024e.dir/testCCompiler.c.o   -c /var/www/html/cgi-embedded/CGI/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_6024e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6024e.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_6024e.dir/testCCompiler.c.o  -o cmTC_6024e 
+make[1]: Map '/var/www/html/cgi-embedded/CGI/build/CMakeFiles/CMakeTmp' wordt verlaten
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/pi/trailer/school/embedded/projects/embedded-cgi/cgi-embedded/CGI/build/CMakeFiles/CMakeTmp
+Change Dir: /var/www/html/cgi-embedded/CGI/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_1ad96/fast"
-/usr/bin/make -f CMakeFiles/cmTC_1ad96.dir/build.make CMakeFiles/cmTC_1ad96.dir/build
-make[1]: Map '/home/pi/trailer/school/embedded/projects/embedded-cgi/cgi-embedded/CGI/build/CMakeFiles/CMakeTmp' wordt binnengegaan
-Building C object CMakeFiles/cmTC_1ad96.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_1ad96.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.13/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_1ad96
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1ad96.dir/link.txt --verbose=1
-/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_1ad96.dir/CMakeCCompilerABI.c.o  -o cmTC_1ad96 
+Run Build Command:"/usr/bin/make" "cmTC_38780/fast"
+/usr/bin/make -f CMakeFiles/cmTC_38780.dir/build.make CMakeFiles/cmTC_38780.dir/build
+make[1]: Map '/var/www/html/cgi-embedded/CGI/build/CMakeFiles/CMakeTmp' wordt binnengegaan
+Building C object CMakeFiles/cmTC_38780.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_38780.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.13/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_38780
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_38780.dir/link.txt --verbose=1
+/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_38780.dir/CMakeCCompilerABI.c.o  -o cmTC_38780 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/arm-linux-gnueabihf/8/lto-wrapper
@@ -59,24 +59,24 @@ Thread model: posix
 gcc version 8.3.0 (Raspbian 8.3.0-6+rpi1) 
 COMPILER_PATH=/usr/lib/gcc/arm-linux-gnueabihf/8/:/usr/lib/gcc/arm-linux-gnueabihf/8/:/usr/lib/gcc/arm-linux-gnueabihf/:/usr/lib/gcc/arm-linux-gnueabihf/8/:/usr/lib/gcc/arm-linux-gnueabihf/
 LIBRARY_PATH=/usr/lib/gcc/arm-linux-gnueabihf/8/:/usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/:/usr/lib/gcc/arm-linux-gnueabihf/8/../../../:/lib/arm-linux-gnueabihf/:/lib/:/usr/lib/arm-linux-gnueabihf/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_1ad96'  '-mfloat-abi=hard' '-mfpu=vfp' '-mtls-dialect=gnu' '-marm' '-march=armv6+fp'
- /usr/lib/gcc/arm-linux-gnueabihf/8/collect2 -plugin /usr/lib/gcc/arm-linux-gnueabihf/8/liblto_plugin.so -plugin-opt=/usr/lib/gcc/arm-linux-gnueabihf/8/lto-wrapper -plugin-opt=-fresolution=/tmp/cc3Esltx.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X --hash-style=gnu -m armelf_linux_eabi -o cmTC_1ad96 /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crt1.o /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crti.o /usr/lib/gcc/arm-linux-gnueabihf/8/crtbegin.o -L/usr/lib/gcc/arm-linux-gnueabihf/8 -L/usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf -L/usr/lib/gcc/arm-linux-gnueabihf/8/../../.. -L/lib/arm-linux-gnueabihf -L/usr/lib/arm-linux-gnueabihf CMakeFiles/cmTC_1ad96.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/arm-linux-gnueabihf/8/crtend.o /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_1ad96'  '-mfloat-abi=hard' '-mfpu=vfp' '-mtls-dialect=gnu' '-marm' '-march=armv6+fp'
-make[1]: Map '/home/pi/trailer/school/embedded/projects/embedded-cgi/cgi-embedded/CGI/build/CMakeFiles/CMakeTmp' wordt verlaten
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_38780'  '-mfloat-abi=hard' '-mfpu=vfp' '-mtls-dialect=gnu' '-marm' '-march=armv6+fp'
+ /usr/lib/gcc/arm-linux-gnueabihf/8/collect2 -plugin /usr/lib/gcc/arm-linux-gnueabihf/8/liblto_plugin.so -plugin-opt=/usr/lib/gcc/arm-linux-gnueabihf/8/lto-wrapper -plugin-opt=-fresolution=/tmp/ccc903Ad.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X --hash-style=gnu -m armelf_linux_eabi -o cmTC_38780 /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crt1.o /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crti.o /usr/lib/gcc/arm-linux-gnueabihf/8/crtbegin.o -L/usr/lib/gcc/arm-linux-gnueabihf/8 -L/usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf -L/usr/lib/gcc/arm-linux-gnueabihf/8/../../.. -L/lib/arm-linux-gnueabihf -L/usr/lib/arm-linux-gnueabihf CMakeFiles/cmTC_38780.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/arm-linux-gnueabihf/8/crtend.o /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_38780'  '-mfloat-abi=hard' '-mfpu=vfp' '-mtls-dialect=gnu' '-marm' '-march=armv6+fp'
+make[1]: Map '/var/www/html/cgi-embedded/CGI/build/CMakeFiles/CMakeTmp' wordt verlaten
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/pi/trailer/school/embedded/projects/embedded-cgi/cgi-embedded/CGI/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /var/www/html/cgi-embedded/CGI/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_1ad96/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_1ad96.dir/build.make CMakeFiles/cmTC_1ad96.dir/build]
-  ignore line: [make[1]: Map '/home/pi/trailer/school/embedded/projects/embedded-cgi/cgi-embedded/CGI/build/CMakeFiles/CMakeTmp' wordt binnengegaan]
-  ignore line: [Building C object CMakeFiles/cmTC_1ad96.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_1ad96.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.13/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_1ad96]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1ad96.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_1ad96.dir/CMakeCCompilerABI.c.o  -o cmTC_1ad96 ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_38780/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_38780.dir/build.make CMakeFiles/cmTC_38780.dir/build]
+  ignore line: [make[1]: Map '/var/www/html/cgi-embedded/CGI/build/CMakeFiles/CMakeTmp' wordt binnengegaan]
+  ignore line: [Building C object CMakeFiles/cmTC_38780.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_38780.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.13/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_38780]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_38780.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_38780.dir/CMakeCCompilerABI.c.o  -o cmTC_38780 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/arm-linux-gnueabihf/8/lto-wrapper]
@@ -86,13 +86,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 8.3.0 (Raspbian 8.3.0-6+rpi1) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/arm-linux-gnueabihf/8/:/usr/lib/gcc/arm-linux-gnueabihf/8/:/usr/lib/gcc/arm-linux-gnueabihf/:/usr/lib/gcc/arm-linux-gnueabihf/8/:/usr/lib/gcc/arm-linux-gnueabihf/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/arm-linux-gnueabihf/8/:/usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/:/usr/lib/gcc/arm-linux-gnueabihf/8/../../../:/lib/arm-linux-gnueabihf/:/lib/:/usr/lib/arm-linux-gnueabihf/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_1ad96'  '-mfloat-abi=hard' '-mfpu=vfp' '-mtls-dialect=gnu' '-marm' '-march=armv6+fp']
-  link line: [ /usr/lib/gcc/arm-linux-gnueabihf/8/collect2 -plugin /usr/lib/gcc/arm-linux-gnueabihf/8/liblto_plugin.so -plugin-opt=/usr/lib/gcc/arm-linux-gnueabihf/8/lto-wrapper -plugin-opt=-fresolution=/tmp/cc3Esltx.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X --hash-style=gnu -m armelf_linux_eabi -o cmTC_1ad96 /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crt1.o /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crti.o /usr/lib/gcc/arm-linux-gnueabihf/8/crtbegin.o -L/usr/lib/gcc/arm-linux-gnueabihf/8 -L/usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf -L/usr/lib/gcc/arm-linux-gnueabihf/8/../../.. -L/lib/arm-linux-gnueabihf -L/usr/lib/arm-linux-gnueabihf CMakeFiles/cmTC_1ad96.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/arm-linux-gnueabihf/8/crtend.o /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_38780'  '-mfloat-abi=hard' '-mfpu=vfp' '-mtls-dialect=gnu' '-marm' '-march=armv6+fp']
+  link line: [ /usr/lib/gcc/arm-linux-gnueabihf/8/collect2 -plugin /usr/lib/gcc/arm-linux-gnueabihf/8/liblto_plugin.so -plugin-opt=/usr/lib/gcc/arm-linux-gnueabihf/8/lto-wrapper -plugin-opt=-fresolution=/tmp/ccc903Ad.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X --hash-style=gnu -m armelf_linux_eabi -o cmTC_38780 /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crt1.o /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crti.o /usr/lib/gcc/arm-linux-gnueabihf/8/crtbegin.o -L/usr/lib/gcc/arm-linux-gnueabihf/8 -L/usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf -L/usr/lib/gcc/arm-linux-gnueabihf/8/../../.. -L/lib/arm-linux-gnueabihf -L/usr/lib/arm-linux-gnueabihf CMakeFiles/cmTC_38780.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/arm-linux-gnueabihf/8/crtend.o /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crtn.o]
     arg [/usr/lib/gcc/arm-linux-gnueabihf/8/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/arm-linux-gnueabihf/8/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/arm-linux-gnueabihf/8/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/cc3Esltx.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccc903Ad.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -108,7 +108,7 @@ Parsed C implicit link information from above output:
     arg [-m] ==> ignore
     arg [armelf_linux_eabi] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_1ad96] ==> ignore
+    arg [cmTC_38780] ==> ignore
     arg [/usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crt1.o] ==> ignore
     arg [/usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crti.o] ==> ignore
     arg [/usr/lib/gcc/arm-linux-gnueabihf/8/crtbegin.o] ==> ignore
@@ -117,7 +117,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/gcc/arm-linux-gnueabihf/8/../../..] ==> dir [/usr/lib/gcc/arm-linux-gnueabihf/8/../../..]
     arg [-L/lib/arm-linux-gnueabihf] ==> dir [/lib/arm-linux-gnueabihf]
     arg [-L/usr/lib/arm-linux-gnueabihf] ==> dir [/usr/lib/arm-linux-gnueabihf]
-    arg [CMakeFiles/cmTC_1ad96.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_38780.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--push-state] ==> ignore
     arg [--as-needed] ==> ignore
@@ -144,17 +144,17 @@ Parsed C implicit link information from above output:
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /home/pi/trailer/school/embedded/projects/embedded-cgi/cgi-embedded/CGI/build/CMakeFiles/CMakeTmp
+Change Dir: /var/www/html/cgi-embedded/CGI/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_0e2b3/fast"
-/usr/bin/make -f CMakeFiles/cmTC_0e2b3.dir/build.make CMakeFiles/cmTC_0e2b3.dir/build
-make[1]: Map '/home/pi/trailer/school/embedded/projects/embedded-cgi/cgi-embedded/CGI/build/CMakeFiles/CMakeTmp' wordt binnengegaan
-Building C object CMakeFiles/cmTC_0e2b3.dir/feature_tests.c.o
-/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_0e2b3.dir/feature_tests.c.o   -c /home/pi/trailer/school/embedded/projects/embedded-cgi/cgi-embedded/CGI/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_0e2b3
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0e2b3.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_0e2b3.dir/feature_tests.c.o  -o cmTC_0e2b3 
-make[1]: Map '/home/pi/trailer/school/embedded/projects/embedded-cgi/cgi-embedded/CGI/build/CMakeFiles/CMakeTmp' wordt verlaten
+Run Build Command:"/usr/bin/make" "cmTC_74ec8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_74ec8.dir/build.make CMakeFiles/cmTC_74ec8.dir/build
+make[1]: Map '/var/www/html/cgi-embedded/CGI/build/CMakeFiles/CMakeTmp' wordt binnengegaan
+Building C object CMakeFiles/cmTC_74ec8.dir/feature_tests.c.o
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_74ec8.dir/feature_tests.c.o   -c /var/www/html/cgi-embedded/CGI/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_74ec8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_74ec8.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_74ec8.dir/feature_tests.c.o  -o cmTC_74ec8 
+make[1]: Map '/var/www/html/cgi-embedded/CGI/build/CMakeFiles/CMakeTmp' wordt verlaten
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -164,17 +164,17 @@ make[1]: Map '/home/pi/trailer/school/embedded/projects/embedded-cgi/cgi-embedde
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /home/pi/trailer/school/embedded/projects/embedded-cgi/cgi-embedded/CGI/build/CMakeFiles/CMakeTmp
+Change Dir: /var/www/html/cgi-embedded/CGI/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_b7f77/fast"
-/usr/bin/make -f CMakeFiles/cmTC_b7f77.dir/build.make CMakeFiles/cmTC_b7f77.dir/build
-make[1]: Map '/home/pi/trailer/school/embedded/projects/embedded-cgi/cgi-embedded/CGI/build/CMakeFiles/CMakeTmp' wordt binnengegaan
-Building C object CMakeFiles/cmTC_b7f77.dir/feature_tests.c.o
-/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_b7f77.dir/feature_tests.c.o   -c /home/pi/trailer/school/embedded/projects/embedded-cgi/cgi-embedded/CGI/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_b7f77
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b7f77.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_b7f77.dir/feature_tests.c.o  -o cmTC_b7f77 
-make[1]: Map '/home/pi/trailer/school/embedded/projects/embedded-cgi/cgi-embedded/CGI/build/CMakeFiles/CMakeTmp' wordt verlaten
+Run Build Command:"/usr/bin/make" "cmTC_0f604/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0f604.dir/build.make CMakeFiles/cmTC_0f604.dir/build
+make[1]: Map '/var/www/html/cgi-embedded/CGI/build/CMakeFiles/CMakeTmp' wordt binnengegaan
+Building C object CMakeFiles/cmTC_0f604.dir/feature_tests.c.o
+/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_0f604.dir/feature_tests.c.o   -c /var/www/html/cgi-embedded/CGI/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_0f604
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0f604.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_0f604.dir/feature_tests.c.o  -o cmTC_0f604 
+make[1]: Map '/var/www/html/cgi-embedded/CGI/build/CMakeFiles/CMakeTmp' wordt verlaten
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -184,17 +184,17 @@ make[1]: Map '/home/pi/trailer/school/embedded/projects/embedded-cgi/cgi-embedde
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /home/pi/trailer/school/embedded/projects/embedded-cgi/cgi-embedded/CGI/build/CMakeFiles/CMakeTmp
+Change Dir: /var/www/html/cgi-embedded/CGI/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_955e3/fast"
-/usr/bin/make -f CMakeFiles/cmTC_955e3.dir/build.make CMakeFiles/cmTC_955e3.dir/build
-make[1]: Map '/home/pi/trailer/school/embedded/projects/embedded-cgi/cgi-embedded/CGI/build/CMakeFiles/CMakeTmp' wordt binnengegaan
-Building C object CMakeFiles/cmTC_955e3.dir/feature_tests.c.o
-/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_955e3.dir/feature_tests.c.o   -c /home/pi/trailer/school/embedded/projects/embedded-cgi/cgi-embedded/CGI/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_955e3
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_955e3.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_955e3.dir/feature_tests.c.o  -o cmTC_955e3 
-make[1]: Map '/home/pi/trailer/school/embedded/projects/embedded-cgi/cgi-embedded/CGI/build/CMakeFiles/CMakeTmp' wordt verlaten
+Run Build Command:"/usr/bin/make" "cmTC_f03da/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f03da.dir/build.make CMakeFiles/cmTC_f03da.dir/build
+make[1]: Map '/var/www/html/cgi-embedded/CGI/build/CMakeFiles/CMakeTmp' wordt binnengegaan
+Building C object CMakeFiles/cmTC_f03da.dir/feature_tests.c.o
+/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_f03da.dir/feature_tests.c.o   -c /var/www/html/cgi-embedded/CGI/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_f03da
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f03da.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_f03da.dir/feature_tests.c.o  -o cmTC_f03da 
+make[1]: Map '/var/www/html/cgi-embedded/CGI/build/CMakeFiles/CMakeTmp' wordt verlaten
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -202,30 +202,30 @@ make[1]: Map '/home/pi/trailer/school/embedded/projects/embedded-cgi/cgi-embedde
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /home/pi/trailer/school/embedded/projects/embedded-cgi/cgi-embedded/CGI/build/CMakeFiles/CMakeTmp
+Change Dir: /var/www/html/cgi-embedded/CGI/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_1eccc/fast"
-/usr/bin/make -f CMakeFiles/cmTC_1eccc.dir/build.make CMakeFiles/cmTC_1eccc.dir/build
-make[1]: Map '/home/pi/trailer/school/embedded/projects/embedded-cgi/cgi-embedded/CGI/build/CMakeFiles/CMakeTmp' wordt binnengegaan
-Building CXX object CMakeFiles/cmTC_1eccc.dir/testCXXCompiler.cxx.o
-/usr/bin/c++     -o CMakeFiles/cmTC_1eccc.dir/testCXXCompiler.cxx.o -c /home/pi/trailer/school/embedded/projects/embedded-cgi/cgi-embedded/CGI/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_1eccc
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1eccc.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_1eccc.dir/testCXXCompiler.cxx.o  -o cmTC_1eccc 
-make[1]: Map '/home/pi/trailer/school/embedded/projects/embedded-cgi/cgi-embedded/CGI/build/CMakeFiles/CMakeTmp' wordt verlaten
+Run Build Command:"/usr/bin/make" "cmTC_779cb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_779cb.dir/build.make CMakeFiles/cmTC_779cb.dir/build
+make[1]: Map '/var/www/html/cgi-embedded/CGI/build/CMakeFiles/CMakeTmp' wordt binnengegaan
+Building CXX object CMakeFiles/cmTC_779cb.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_779cb.dir/testCXXCompiler.cxx.o -c /var/www/html/cgi-embedded/CGI/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_779cb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_779cb.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_779cb.dir/testCXXCompiler.cxx.o  -o cmTC_779cb 
+make[1]: Map '/var/www/html/cgi-embedded/CGI/build/CMakeFiles/CMakeTmp' wordt verlaten
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/pi/trailer/school/embedded/projects/embedded-cgi/cgi-embedded/CGI/build/CMakeFiles/CMakeTmp
+Change Dir: /var/www/html/cgi-embedded/CGI/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_87471/fast"
-/usr/bin/make -f CMakeFiles/cmTC_87471.dir/build.make CMakeFiles/cmTC_87471.dir/build
-make[1]: Map '/home/pi/trailer/school/embedded/projects/embedded-cgi/cgi-embedded/CGI/build/CMakeFiles/CMakeTmp' wordt binnengegaan
-Building CXX object CMakeFiles/cmTC_87471.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++     -o CMakeFiles/cmTC_87471.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.13/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_87471
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_87471.dir/link.txt --verbose=1
-/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_87471.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_87471 
+Run Build Command:"/usr/bin/make" "cmTC_f00fc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f00fc.dir/build.make CMakeFiles/cmTC_f00fc.dir/build
+make[1]: Map '/var/www/html/cgi-embedded/CGI/build/CMakeFiles/CMakeTmp' wordt binnengegaan
+Building CXX object CMakeFiles/cmTC_f00fc.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTC_f00fc.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.13/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_f00fc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f00fc.dir/link.txt --verbose=1
+/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_f00fc.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_f00fc 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/arm-linux-gnueabihf/8/lto-wrapper
@@ -235,24 +235,24 @@ Thread model: posix
 gcc version 8.3.0 (Raspbian 8.3.0-6+rpi1) 
 COMPILER_PATH=/usr/lib/gcc/arm-linux-gnueabihf/8/:/usr/lib/gcc/arm-linux-gnueabihf/8/:/usr/lib/gcc/arm-linux-gnueabihf/:/usr/lib/gcc/arm-linux-gnueabihf/8/:/usr/lib/gcc/arm-linux-gnueabihf/
 LIBRARY_PATH=/usr/lib/gcc/arm-linux-gnueabihf/8/:/usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/:/usr/lib/gcc/arm-linux-gnueabihf/8/../../../:/lib/arm-linux-gnueabihf/:/lib/:/usr/lib/arm-linux-gnueabihf/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_87471' '-shared-libgcc'  '-mfloat-abi=hard' '-mfpu=vfp' '-mtls-dialect=gnu' '-marm' '-march=armv6+fp'
- /usr/lib/gcc/arm-linux-gnueabihf/8/collect2 -plugin /usr/lib/gcc/arm-linux-gnueabihf/8/liblto_plugin.so -plugin-opt=/usr/lib/gcc/arm-linux-gnueabihf/8/lto-wrapper -plugin-opt=-fresolution=/tmp/ccMDWEug.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X --hash-style=gnu -m armelf_linux_eabi -o cmTC_87471 /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crt1.o /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crti.o /usr/lib/gcc/arm-linux-gnueabihf/8/crtbegin.o -L/usr/lib/gcc/arm-linux-gnueabihf/8 -L/usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf -L/usr/lib/gcc/arm-linux-gnueabihf/8/../../.. -L/lib/arm-linux-gnueabihf -L/usr/lib/arm-linux-gnueabihf CMakeFiles/cmTC_87471.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/arm-linux-gnueabihf/8/crtend.o /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_87471' '-shared-libgcc'  '-mfloat-abi=hard' '-mfpu=vfp' '-mtls-dialect=gnu' '-marm' '-march=armv6+fp'
-make[1]: Map '/home/pi/trailer/school/embedded/projects/embedded-cgi/cgi-embedded/CGI/build/CMakeFiles/CMakeTmp' wordt verlaten
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_f00fc' '-shared-libgcc'  '-mfloat-abi=hard' '-mfpu=vfp' '-mtls-dialect=gnu' '-marm' '-march=armv6+fp'
+ /usr/lib/gcc/arm-linux-gnueabihf/8/collect2 -plugin /usr/lib/gcc/arm-linux-gnueabihf/8/liblto_plugin.so -plugin-opt=/usr/lib/gcc/arm-linux-gnueabihf/8/lto-wrapper -plugin-opt=-fresolution=/tmp/ccclVjw9.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X --hash-style=gnu -m armelf_linux_eabi -o cmTC_f00fc /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crt1.o /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crti.o /usr/lib/gcc/arm-linux-gnueabihf/8/crtbegin.o -L/usr/lib/gcc/arm-linux-gnueabihf/8 -L/usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf -L/usr/lib/gcc/arm-linux-gnueabihf/8/../../.. -L/lib/arm-linux-gnueabihf -L/usr/lib/arm-linux-gnueabihf CMakeFiles/cmTC_f00fc.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/arm-linux-gnueabihf/8/crtend.o /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_f00fc' '-shared-libgcc'  '-mfloat-abi=hard' '-mfpu=vfp' '-mtls-dialect=gnu' '-marm' '-march=armv6+fp'
+make[1]: Map '/var/www/html/cgi-embedded/CGI/build/CMakeFiles/CMakeTmp' wordt verlaten
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/pi/trailer/school/embedded/projects/embedded-cgi/cgi-embedded/CGI/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /var/www/html/cgi-embedded/CGI/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_87471/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_87471.dir/build.make CMakeFiles/cmTC_87471.dir/build]
-  ignore line: [make[1]: Map '/home/pi/trailer/school/embedded/projects/embedded-cgi/cgi-embedded/CGI/build/CMakeFiles/CMakeTmp' wordt binnengegaan]
-  ignore line: [Building CXX object CMakeFiles/cmTC_87471.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_87471.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.13/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_87471]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_87471.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_87471.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_87471 ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_f00fc/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_f00fc.dir/build.make CMakeFiles/cmTC_f00fc.dir/build]
+  ignore line: [make[1]: Map '/var/www/html/cgi-embedded/CGI/build/CMakeFiles/CMakeTmp' wordt binnengegaan]
+  ignore line: [Building CXX object CMakeFiles/cmTC_f00fc.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_f00fc.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.13/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_f00fc]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f00fc.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_f00fc.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_f00fc ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/arm-linux-gnueabihf/8/lto-wrapper]
@@ -262,13 +262,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 8.3.0 (Raspbian 8.3.0-6+rpi1) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/arm-linux-gnueabihf/8/:/usr/lib/gcc/arm-linux-gnueabihf/8/:/usr/lib/gcc/arm-linux-gnueabihf/:/usr/lib/gcc/arm-linux-gnueabihf/8/:/usr/lib/gcc/arm-linux-gnueabihf/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/arm-linux-gnueabihf/8/:/usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/:/usr/lib/gcc/arm-linux-gnueabihf/8/../../../:/lib/arm-linux-gnueabihf/:/lib/:/usr/lib/arm-linux-gnueabihf/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_87471' '-shared-libgcc'  '-mfloat-abi=hard' '-mfpu=vfp' '-mtls-dialect=gnu' '-marm' '-march=armv6+fp']
-  link line: [ /usr/lib/gcc/arm-linux-gnueabihf/8/collect2 -plugin /usr/lib/gcc/arm-linux-gnueabihf/8/liblto_plugin.so -plugin-opt=/usr/lib/gcc/arm-linux-gnueabihf/8/lto-wrapper -plugin-opt=-fresolution=/tmp/ccMDWEug.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X --hash-style=gnu -m armelf_linux_eabi -o cmTC_87471 /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crt1.o /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crti.o /usr/lib/gcc/arm-linux-gnueabihf/8/crtbegin.o -L/usr/lib/gcc/arm-linux-gnueabihf/8 -L/usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf -L/usr/lib/gcc/arm-linux-gnueabihf/8/../../.. -L/lib/arm-linux-gnueabihf -L/usr/lib/arm-linux-gnueabihf CMakeFiles/cmTC_87471.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/arm-linux-gnueabihf/8/crtend.o /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_f00fc' '-shared-libgcc'  '-mfloat-abi=hard' '-mfpu=vfp' '-mtls-dialect=gnu' '-marm' '-march=armv6+fp']
+  link line: [ /usr/lib/gcc/arm-linux-gnueabihf/8/collect2 -plugin /usr/lib/gcc/arm-linux-gnueabihf/8/liblto_plugin.so -plugin-opt=/usr/lib/gcc/arm-linux-gnueabihf/8/lto-wrapper -plugin-opt=-fresolution=/tmp/ccclVjw9.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X --hash-style=gnu -m armelf_linux_eabi -o cmTC_f00fc /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crt1.o /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crti.o /usr/lib/gcc/arm-linux-gnueabihf/8/crtbegin.o -L/usr/lib/gcc/arm-linux-gnueabihf/8 -L/usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf -L/usr/lib/gcc/arm-linux-gnueabihf/8/../../.. -L/lib/arm-linux-gnueabihf -L/usr/lib/arm-linux-gnueabihf CMakeFiles/cmTC_f00fc.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/arm-linux-gnueabihf/8/crtend.o /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crtn.o]
     arg [/usr/lib/gcc/arm-linux-gnueabihf/8/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/arm-linux-gnueabihf/8/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/arm-linux-gnueabihf/8/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccMDWEug.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccclVjw9.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -284,7 +284,7 @@ Parsed CXX implicit link information from above output:
     arg [-m] ==> ignore
     arg [armelf_linux_eabi] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_87471] ==> ignore
+    arg [cmTC_f00fc] ==> ignore
     arg [/usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crt1.o] ==> ignore
     arg [/usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crti.o] ==> ignore
     arg [/usr/lib/gcc/arm-linux-gnueabihf/8/crtbegin.o] ==> ignore
@@ -293,7 +293,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/gcc/arm-linux-gnueabihf/8/../../..] ==> dir [/usr/lib/gcc/arm-linux-gnueabihf/8/../../..]
     arg [-L/lib/arm-linux-gnueabihf] ==> dir [/lib/arm-linux-gnueabihf]
     arg [-L/usr/lib/arm-linux-gnueabihf] ==> dir [/usr/lib/arm-linux-gnueabihf]
-    arg [CMakeFiles/cmTC_87471.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_f00fc.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -316,17 +316,17 @@ Parsed CXX implicit link information from above output:
 
 
 Detecting CXX [-std=c++2a] compiler features compiled with the following output:
-Change Dir: /home/pi/trailer/school/embedded/projects/embedded-cgi/cgi-embedded/CGI/build/CMakeFiles/CMakeTmp
+Change Dir: /var/www/html/cgi-embedded/CGI/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_d73cf/fast"
-/usr/bin/make -f CMakeFiles/cmTC_d73cf.dir/build.make CMakeFiles/cmTC_d73cf.dir/build
-make[1]: Map '/home/pi/trailer/school/embedded/projects/embedded-cgi/cgi-embedded/CGI/build/CMakeFiles/CMakeTmp' wordt binnengegaan
-Building CXX object CMakeFiles/cmTC_d73cf.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++2a -o CMakeFiles/cmTC_d73cf.dir/feature_tests.cxx.o -c /home/pi/trailer/school/embedded/projects/embedded-cgi/cgi-embedded/CGI/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_d73cf
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d73cf.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_d73cf.dir/feature_tests.cxx.o  -o cmTC_d73cf 
-make[1]: Map '/home/pi/trailer/school/embedded/projects/embedded-cgi/cgi-embedded/CGI/build/CMakeFiles/CMakeTmp' wordt verlaten
+Run Build Command:"/usr/bin/make" "cmTC_effa8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_effa8.dir/build.make CMakeFiles/cmTC_effa8.dir/build
+make[1]: Map '/var/www/html/cgi-embedded/CGI/build/CMakeFiles/CMakeTmp' wordt binnengegaan
+Building CXX object CMakeFiles/cmTC_effa8.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++2a -o CMakeFiles/cmTC_effa8.dir/feature_tests.cxx.o -c /var/www/html/cgi-embedded/CGI/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_effa8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_effa8.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_effa8.dir/feature_tests.cxx.o  -o cmTC_effa8 
+make[1]: Map '/var/www/html/cgi-embedded/CGI/build/CMakeFiles/CMakeTmp' wordt verlaten
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -389,17 +389,17 @@ make[1]: Map '/home/pi/trailer/school/embedded/projects/embedded-cgi/cgi-embedde
 
 
 Detecting CXX [-std=c++17] compiler features compiled with the following output:
-Change Dir: /home/pi/trailer/school/embedded/projects/embedded-cgi/cgi-embedded/CGI/build/CMakeFiles/CMakeTmp
+Change Dir: /var/www/html/cgi-embedded/CGI/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_faec2/fast"
-/usr/bin/make -f CMakeFiles/cmTC_faec2.dir/build.make CMakeFiles/cmTC_faec2.dir/build
-make[1]: Map '/home/pi/trailer/school/embedded/projects/embedded-cgi/cgi-embedded/CGI/build/CMakeFiles/CMakeTmp' wordt binnengegaan
-Building CXX object CMakeFiles/cmTC_faec2.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++17 -o CMakeFiles/cmTC_faec2.dir/feature_tests.cxx.o -c /home/pi/trailer/school/embedded/projects/embedded-cgi/cgi-embedded/CGI/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_faec2
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_faec2.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_faec2.dir/feature_tests.cxx.o  -o cmTC_faec2 
-make[1]: Map '/home/pi/trailer/school/embedded/projects/embedded-cgi/cgi-embedded/CGI/build/CMakeFiles/CMakeTmp' wordt verlaten
+Run Build Command:"/usr/bin/make" "cmTC_3f9cb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3f9cb.dir/build.make CMakeFiles/cmTC_3f9cb.dir/build
+make[1]: Map '/var/www/html/cgi-embedded/CGI/build/CMakeFiles/CMakeTmp' wordt binnengegaan
+Building CXX object CMakeFiles/cmTC_3f9cb.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++17 -o CMakeFiles/cmTC_3f9cb.dir/feature_tests.cxx.o -c /var/www/html/cgi-embedded/CGI/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_3f9cb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3f9cb.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_3f9cb.dir/feature_tests.cxx.o  -o cmTC_3f9cb 
+make[1]: Map '/var/www/html/cgi-embedded/CGI/build/CMakeFiles/CMakeTmp' wordt verlaten
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -462,17 +462,17 @@ make[1]: Map '/home/pi/trailer/school/embedded/projects/embedded-cgi/cgi-embedde
 
 
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: /home/pi/trailer/school/embedded/projects/embedded-cgi/cgi-embedded/CGI/build/CMakeFiles/CMakeTmp
+Change Dir: /var/www/html/cgi-embedded/CGI/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_663c6/fast"
-/usr/bin/make -f CMakeFiles/cmTC_663c6.dir/build.make CMakeFiles/cmTC_663c6.dir/build
-make[1]: Map '/home/pi/trailer/school/embedded/projects/embedded-cgi/cgi-embedded/CGI/build/CMakeFiles/CMakeTmp' wordt binnengegaan
-Building CXX object CMakeFiles/cmTC_663c6.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_663c6.dir/feature_tests.cxx.o -c /home/pi/trailer/school/embedded/projects/embedded-cgi/cgi-embedded/CGI/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_663c6
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_663c6.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_663c6.dir/feature_tests.cxx.o  -o cmTC_663c6 
-make[1]: Map '/home/pi/trailer/school/embedded/projects/embedded-cgi/cgi-embedded/CGI/build/CMakeFiles/CMakeTmp' wordt verlaten
+Run Build Command:"/usr/bin/make" "cmTC_c4175/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c4175.dir/build.make CMakeFiles/cmTC_c4175.dir/build
+make[1]: Map '/var/www/html/cgi-embedded/CGI/build/CMakeFiles/CMakeTmp' wordt binnengegaan
+Building CXX object CMakeFiles/cmTC_c4175.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_c4175.dir/feature_tests.cxx.o -c /var/www/html/cgi-embedded/CGI/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_c4175
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c4175.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_c4175.dir/feature_tests.cxx.o  -o cmTC_c4175 
+make[1]: Map '/var/www/html/cgi-embedded/CGI/build/CMakeFiles/CMakeTmp' wordt verlaten
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -535,17 +535,17 @@ make[1]: Map '/home/pi/trailer/school/embedded/projects/embedded-cgi/cgi-embedde
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /home/pi/trailer/school/embedded/projects/embedded-cgi/cgi-embedded/CGI/build/CMakeFiles/CMakeTmp
+Change Dir: /var/www/html/cgi-embedded/CGI/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_06a17/fast"
-/usr/bin/make -f CMakeFiles/cmTC_06a17.dir/build.make CMakeFiles/cmTC_06a17.dir/build
-make[1]: Map '/home/pi/trailer/school/embedded/projects/embedded-cgi/cgi-embedded/CGI/build/CMakeFiles/CMakeTmp' wordt binnengegaan
-Building CXX object CMakeFiles/cmTC_06a17.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_06a17.dir/feature_tests.cxx.o -c /home/pi/trailer/school/embedded/projects/embedded-cgi/cgi-embedded/CGI/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_06a17
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_06a17.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_06a17.dir/feature_tests.cxx.o  -o cmTC_06a17 
-make[1]: Map '/home/pi/trailer/school/embedded/projects/embedded-cgi/cgi-embedded/CGI/build/CMakeFiles/CMakeTmp' wordt verlaten
+Run Build Command:"/usr/bin/make" "cmTC_860d3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_860d3.dir/build.make CMakeFiles/cmTC_860d3.dir/build
+make[1]: Map '/var/www/html/cgi-embedded/CGI/build/CMakeFiles/CMakeTmp' wordt binnengegaan
+Building CXX object CMakeFiles/cmTC_860d3.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_860d3.dir/feature_tests.cxx.o -c /var/www/html/cgi-embedded/CGI/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_860d3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_860d3.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_860d3.dir/feature_tests.cxx.o  -o cmTC_860d3 
+make[1]: Map '/var/www/html/cgi-embedded/CGI/build/CMakeFiles/CMakeTmp' wordt verlaten
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -608,17 +608,17 @@ make[1]: Map '/home/pi/trailer/school/embedded/projects/embedded-cgi/cgi-embedde
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /home/pi/trailer/school/embedded/projects/embedded-cgi/cgi-embedded/CGI/build/CMakeFiles/CMakeTmp
+Change Dir: /var/www/html/cgi-embedded/CGI/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_4e3b0/fast"
-/usr/bin/make -f CMakeFiles/cmTC_4e3b0.dir/build.make CMakeFiles/cmTC_4e3b0.dir/build
-make[1]: Map '/home/pi/trailer/school/embedded/projects/embedded-cgi/cgi-embedded/CGI/build/CMakeFiles/CMakeTmp' wordt binnengegaan
-Building CXX object CMakeFiles/cmTC_4e3b0.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_4e3b0.dir/feature_tests.cxx.o -c /home/pi/trailer/school/embedded/projects/embedded-cgi/cgi-embedded/CGI/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_4e3b0
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4e3b0.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_4e3b0.dir/feature_tests.cxx.o  -o cmTC_4e3b0 
-make[1]: Map '/home/pi/trailer/school/embedded/projects/embedded-cgi/cgi-embedded/CGI/build/CMakeFiles/CMakeTmp' wordt verlaten
+Run Build Command:"/usr/bin/make" "cmTC_b6f18/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b6f18.dir/build.make CMakeFiles/cmTC_b6f18.dir/build
+make[1]: Map '/var/www/html/cgi-embedded/CGI/build/CMakeFiles/CMakeTmp' wordt binnengegaan
+Building CXX object CMakeFiles/cmTC_b6f18.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_b6f18.dir/feature_tests.cxx.o -c /var/www/html/cgi-embedded/CGI/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_b6f18
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b6f18.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_b6f18.dir/feature_tests.cxx.o  -o cmTC_b6f18 
+make[1]: Map '/var/www/html/cgi-embedded/CGI/build/CMakeFiles/CMakeTmp' wordt verlaten
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers

@@ -1,5 +1,5 @@
 $(() => {
-    fetchData('../data/cgidata.json')
+    fetchData('./data/cgidata.json')
         .then((checkins) => {
             displayData(checkins)
         })
