@@ -27,16 +27,22 @@ sudo a2enmod cgi
 systemctl restart apache2
 ```
 
+Clone into /var/www/html
+```bash
+sudo git clone https://github.com/bandydos/cgi-embedded.git /var/www/html
+```
+
 Make (with CMake) and move into /usr/lig/cgi-bin
 ```bash
 cd /CGI/build
 cmake ../source
-sudo mv ENV-CGI /usr/lib/cgi-bin/ENV-CGI
-sudo chmod a+rx /usr/lib/cgi-bin/ENV-CGI
+sudo cp emb-cgi /usr/lib/cgi-bin/emb-cgi
+sudo chmod a+rx /usr/lib/cgi-bin/emb-cgi
 ```
 
 Visit / fetch
-```bash
-http://hostname/cgi-bin/ENV-CGI
+```
+http://hostname/embedded-cgi
+http://hostname/cgi-bin/emb-cgi
 ```
 
