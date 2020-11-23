@@ -1,4 +1,3 @@
-
-
-input-name=lol
 input-name=Alexander&input-place=Duinkerke
+input-name=Jozef&input-place=Lendelede
+input-name=Suzanne&input-place=Marke

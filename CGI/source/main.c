@@ -4,7 +4,6 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
-#include <time.h>
 
 #define MAXLEN 80
 #define MAXINPUT MAXLEN+2
@@ -26,8 +25,7 @@ void unencode(char *src, char *last, char *dest)
  *++dest = '\0';
 }
 
-/* Print a basic HTTP header. */
-
+// Print header
 static void print_http_header(const char *content_type)
 {
     printf("Content-Type: %s\n\n", content_type);
