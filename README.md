@@ -6,15 +6,16 @@
 
 ## TODO
 
-* [ ] make website
-* [ ] use bootstrap
-* [ ] fetch JSON
-* [ ] display data in table
-* [ ] make POST form
-* [ ] make CGI (C)
-* [ ] fetch post with CGI
+* [X] make website
+* [X] use bootstrap
+* [X] fetch JSON
+* [X] display data in table
+* [X] make POST form
+* [X] make CGI (C)
+* [X] fetch post with CGI
 * [ ] fill up JSON file (+ add timestamp)
 * [ ] fetch again...
+* [X] implement cookies
 
 ---
 
@@ -30,12 +31,15 @@ systemctl restart apache2
 Clone into /var/www/html
 ```bash
 sudo git clone https://github.com/bandydos/cgi-embedded.git /var/www/html
+cd /var/www/html/cgi-embedded
+sudo npm install
 ```
 
 Make (with CMake) and move into /usr/lig/cgi-bin
 ```bash
 cd /CGI/build
-cmake ../source
+sudo cmake ../source
+sudo make
 sudo cp emb-cgi /usr/lib/cgi-bin/emb-cgi
 sudo chmod a+rx /usr/lib/cgi-bin/emb-cgi
 ```
